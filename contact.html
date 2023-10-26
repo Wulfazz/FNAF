@@ -3,22 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-
-    <!-- Icone -->
+    <title>Contact</title>
     <link
       rel="icon"
       type="image/x-icon"
       href="https://w7.pngwing.com/pngs/109/39/png-transparent-five-nights-at-freddy-s-sister-location-five-nights-at-freddy-s-2-five-nights-at-freddy-s-4-five-nights-at-freddy-s-3-stuffed-animals-cuddly-toys-fnaf.png"
     />
-
-    <!-- Lien CSS -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-
-    <!-- Barre de nav -->
     <nav class="nav">
         <ul>
             <li id="logo">
@@ -40,19 +33,29 @@
                 <a href="contact.html">Contact</a>
             </li>
         </ul>
-    </nav> 
+    </nav>
 
-        <!-- Image de fond pour home -->
-        <div class="fnaf3">
-            <div class="home">
-                <div class="imageH">
-                    <img  src="images/Springtrap.png" alt="springtrap" class="springy"/>
-                </div>
-                <div class="texteH">
-                    <h1 id="nom">LAMPS ELEON</h1>
-                    <p id="welcome">Welcome to my world</p>
-                </div>
-            </div>   
-        </div>       
+    <div class="container">
+        <div class="fnafcrew">
+            <h1>Contact us before : 12 PM</h1>
+            <form action="/action_page.php">
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Name">
+      
+            <label for="sujet">Subjet</label>
+            <input type="text" id="sujet" name="subjet" placeholder="subject">
+      
+            <label for="emailAddress">Email</label>
+            <input id="emailAddress" type="email" name="email" placeholder="email">
+      
+      
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="texte" style="height:200px"></textarea>
+      
+            <input type="submit" value="send">
+            </form>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
