@@ -4,6 +4,10 @@
     border: 0;
 }
 
+body{
+  height: 100vh;
+}
+
 /* Navbar */
 .nav{
     width: 100%;
@@ -49,7 +53,7 @@
   }
 
   /* background */
-    .fnaf3{
+  .fnaf3{
     background-image: url("images/fnaf3.JPG"); 
     background-size: cover;
     background-position: top center;
@@ -63,7 +67,6 @@
     background-position: top center;
     width: 100%;
     position: fixed;
-    color: white;
   }
 
   .fnaf2{
@@ -105,21 +108,20 @@
 }
 
 /* Page contact */
-body {font-family: digital numbers, Helvetica, sans-serif;
-    padding: 0px;}
+
   
   input[type=text], textarea, input[type=email] {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     margin-right: 0px;
     margin-left: 0px;
     resize: vertical;
   }
+
   label{margin-right: 0px;
     margin-left: 0px;
     width: 100%;}
@@ -138,17 +140,18 @@ body {font-family: digital numbers, Helvetica, sans-serif;
   }
   
   .container {
-    /* Ajouter box-sizing */
     box-sizing : border-box;
     border-radius:5px;
-    background-color:#f2f2f2;
     padding:20px;
     width: 100%;
-    /* redéfinition 400 + 2*20 */
     max-width: 440px;
-    margin:0 auto;
+    margin: auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
   }
-  h1  {
+
+  legend    {
     color: red;
     width: 100%;
   }
@@ -181,130 +184,32 @@ body {font-family: digital numbers, Helvetica, sans-serif;
     transform: rotate(10deg);
   }
 
-  .barrecompétence {
-    height: 5%;
+  /* Skills */
+  .barrecompetence {
+    height: 1%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    margin: 2%;
   }
-  .html {
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-  }
-  .html2 {
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
-  }
-  .Javascript {
- 
+
+  .skill {
     width: 60%;
     background-color: #b7b7a4;
     border-radius: 50px;
     margin-top: 50px;
-  }
-  .JS2 {
 
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
   }
-  .php {
-
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .php2 {
-
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
-  }
-  .Git {
-
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .Git2 {
-
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
-  }
-  .Css {
-
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .Css2 {
-
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
-  }
-  .Docker {
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .Docker2 {
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
-  }
-  .Angular {
-
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .Angular2 {
-
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
-  }
-  .figma {
- 
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .figma2 {
-
-    width: 60%;
-    background-color: #6b705c;
-    border-radius: 50px;
-  }
-  .sql {
-
-    width: 60%;
-    background-color: #b7b7a4;
-    border-radius: 50px;
-    margin-top: 50px;
-  }
-  .sql2 {
-
+  .skill2 {
     width: 60%;
     background-color: #6b705c;
     border-radius: 50px;
   }
 
   .L{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     display: flex;
     margin-left: -10%;
   }
